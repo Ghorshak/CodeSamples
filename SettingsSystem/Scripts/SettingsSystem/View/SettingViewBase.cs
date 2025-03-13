@@ -15,7 +15,6 @@ namespace SettingsSystem.View
 
         protected virtual void Awake()
         {
-            Debug.Log($"setting display name for {Setting.Key} -> {Setting.DisplayName}");
             DisplayName.text = Setting.DisplayName;
         }
 
